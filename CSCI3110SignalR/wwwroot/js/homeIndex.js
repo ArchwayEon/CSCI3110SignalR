@@ -14,7 +14,7 @@ function getRandomNumber() {
             return response.json();
         })
         .then(result => {
-            populateWithRandomNumber(incoming.data);
+            populateWithRandomNumber(result);
         });
 }
 
